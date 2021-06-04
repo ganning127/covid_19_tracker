@@ -44,7 +44,6 @@ def main():
     if not values:
         return "NO DATA"
     else:
-        #print('Phone #, Carrier:')
         for row in values:
 
             completed[row[2]] = row[3]
