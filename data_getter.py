@@ -46,8 +46,7 @@ def main():
     else:
         #print('Phone #, Carrier:')
         for row in values:
-            # Print columns C and D, which correspond to indices 2 and 3.
-            # print('%s, %s' % (row[2], row[3]))
+
             completed[row[2]] = row[3]
         del completed['Phone Number (no spaces)']
 
